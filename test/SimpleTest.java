@@ -1,19 +1,10 @@
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
+import org.junit.*;
+import static org.junit.Assert.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SimpleTest;
-
-        import java.util.regex.Pattern;
-        import java.util.concurrent.TimeUnit;
-        import org.junit.*;
-        import static org.junit.Assert.*;
-        import static org.hamcrest.CoreMatchers.*;
-        import org.openqa.selenium.*;
-        import org.openqa.selenium.chrome.ChromeDriver;
-        import org.openqa.selenium.support.ui.Select;
-        import org.apache.commons.io.FileUtils;
-        import java.io.File;
-
-public class UntitledTestCase {
+public class SimpleTest {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;
@@ -21,7 +12,7 @@ public class UntitledTestCase {
     JavascriptExecutor js;
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "");
+        // System.setProperty("webdriver.chrome.driver", "");
         driver = new ChromeDriver();
         baseUrl = "https://www.google.com/";
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
@@ -31,15 +22,13 @@ public class UntitledTestCase {
     @Test
     public void testUntitledTestCase() throws Exception {
         driver.get("https://www.google.com/");
-        driver.findElement(By.name("q")).sendKeys(Keys.DOWN);
         driver.findElement(By.name("q")).clear();
-        driver.findElement(By.name("q")).sendKeys("selenium");
+        driver.findElement(By.name("q")).sendKeys("Selenium");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-        driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/a/h3")).click();
+        driver.findElement(By.xpath("//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3")).click();
         driver.get("https://www.selenium.dev/");
         driver.findElement(By.xpath("//div[@id='main_navbar']/ul/li[3]/a/span")).click();
         assertEquals("Downloads | Selenium", driver.getTitle());
-
     }
 
     @After
@@ -50,5 +39,6 @@ public class UntitledTestCase {
             fail(verificationErrorString);
         }
     }
-}
 
+
+}
