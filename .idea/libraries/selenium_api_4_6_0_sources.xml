@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="selenium-api-4.6.0-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-http-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v106-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v105-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v107-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-api-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-json-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-chrome-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-firefox-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-chromium-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-edge-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-manager-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-java-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-ie-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v85-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-remote-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-safari-driver-4.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-support-4.6.0.jar!/" />
+      <root url="file://$PROJECT_DIR$/../selenium" />
+      <root url="file://$PROJECT_DIR$/../selenium/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-api-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v85-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v107-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-edge-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v106-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-devtools-v105-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-chromium-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-firefox-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-json-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-chrome-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-http-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-remote-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-manager-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-ie-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-safari-driver-4.6.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../selenium/selenium-support-4.6.0-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../selenium" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../selenium" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../selenium/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../selenium" recursive="false" type="SOURCES" />
+  </library>
+</component>
